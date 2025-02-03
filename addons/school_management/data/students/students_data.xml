@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data >
+        <record id="student_1" model="school.student">
+            <field name="name">Alice</field>
+            <field name="lastname">Johnson</field>
+            <field name="birthdate">2010-01-01</field>
+            <field name="gender">femenino</field>
+            <field name="ci">12345678</field>
+            <field name="cellphone">555-0100</field>
+        </record>
+        <record id="student_2" model="school.student">
+            <field name="name">Bob</field>
+            <field name="lastname">Smith</field>
+            <field name="birthdate">2011-02-02</field>
+            <field name="gender">masculino</field>
+            <field name="ci">23456789</field>
+            <field name="cellphone">555-0200</field>
+        </record>
+        <record id="student_3" model="school.student">
+            <field name="name">Charlie</field>
+            <field name="lastname">Brown</field>
+            <field name="birthdate">2012-03-03</field>
+            <field name="gender">masculino</field>
+            <field name="ci">34567890</field>
+            <field name="cellphone">555-0300</field>
+        </record>
+        <record id="student_4" model="school.student">
+            <field name="name">Diana</field>
+            <field name="lastname">Ross</field>
+            <field name="birthdate">2013-04-04</field>
+            <field name="gender">femenino</field>
+            <field name="ci">45678901</field>
+            <field name="cellphone">555-0400</field>
+        </record>
+        <record id="student_5" model="school.student">
+            <field name="name">Eve</field>
+            <field name="lastname">Williams</field>
+            <field name="birthdate">2014-05-05</field>
+            <field name="gender">femenino</field>
+            <field name="ci">56789012</field>
+            <field name="cellphone">555-0500</field>
+        </record>
+        <record id="student_6" model="school.student">
+            <field name="name">Frank</field>
+            <field name="lastname">Miller</field>
+            <field name="birthdate">2010-06-06</field>
+            <field name="gender">masculino</field>
+            <field name="ci">67890123</field>
+            <field name="cellphone">555-0600</field>
+        </record>
+        <record id="student_7" model="school.student">
+            <field name="name">Grace</field>
+            <field name="lastname">Lee</field>
+            <field name="birthdate">2011-07-07</field>
+            <field name="gender">femenino</field>
+            <field name="ci">78901234</field>
+            <field name="cellphone">555-0700</field>
+        </record>
+        <record id="student_8" model="school.student">
+            <field name="name">Hank</field>
+            <field name="lastname">Kim</field>
+            <field name="birthdate">2012-08-08</field>
+            <field name="gender">masculino</field>
+            <field name="ci">89012345</field>
+            <field name="cellphone">555-0800</field>
+        </record>
+        <record id="student_9" model="school.student">
+            <field name="name">Ivy</field>
+            <field name="lastname">Garcia</field>
+            <field name="birthdate">2013-09-09</field>
+            <field name="gender">femenino</field>
+            <field name="ci">90123456</field>
+            <field name="cellphone">555-0900</field>
+        </record>
+        <record id="student_10" model="school.student">
+            <field name="name">Jack</field>
+            <field name="lastname">Martinez</field>
+            <field name="birthdate">2014-10-10</field>
+            <field name="gender">masculino</field>
+            <field name="ci">01234567</field>
+            <field name="cellphone">555-1000</field>
+        </record>
+        <record id="student_11" model="school.student">
+            <field name="name">Kate</field>
+            <field name="lastname">Anderson</field>
+            <field name="birthdate">2010-11-11</field>
+            <field name="gender">femenino</field>
+            <field name="ci">11234567</field>
+            <field name="cellphone">555-1100</field>
+        </record>
+        <record id="student_12" model="school.student">
+            <field name="name">Leo</field>
+            <field name="lastname">Taylor</field>
+            <field name="birthdate">2011-12-12</field>
+            <field name="gender">masculino</field>
+            <field name="ci">22345678</field>
+            <field name="cellphone">555-1200</field>
+        </record>
+        <record id="student_13" model="school.student">
+            <field name="name">Mia</field>
+            <field name="lastname">Thomas</field>
+            <field name="birthdate">2012-01-13</field>
+            <field name="gender">femenino</field>
+            <field name="ci">33456789</field>
+            <field name="cellphone">555-1300</field>
+        </record>
+        <record id="student_14" model="school.student">
+            <field name="name">Nick</field>
+            <field name="lastname">Hernandez</field>
+            <field name="birthdate">2013-02-14</field>
+            <field name="gender">masculino</field>
+            <field name="ci">44567890</field>
+            <field name="cellphone">555-1400</field>
+        </record>
+        <record id="student_15" model="school.student">
+            <field name="name">Olivia</field>
+            <field name="lastname">White</field>
+            <field name="birthdate">2014-03-15</field>
+            <field name="gender">femenino</field>
+            <field name="ci">55678901</field>
+            <field name="cellphone">555-1500</field>
+        </record>
+        <record id="student_16" model="school.student">
+            <field name="name">Paul</field>
+            <field name="lastname">Harris</field>
+            <field name="birthdate">2010-04-16</field>
+            <field name="gender">masculino</field>
+            <field name="ci">66789012</field>
+            <field name="cellphone">555-1600</field>
+        </record>
+        <record id="student_17" model="school.student">
+            <field name="name">Quinn</field>
+            <field name="lastname">Clark</field>
+            <field name="birthdate">2011-05-17</field>
+            <field name="gender">femenino</field>
+            <field name="ci">77890123</field>
+            <field name="cellphone">555-1700</field>
+        </record>
+        <record id="student_18" model="school.student">
+            <field name="name">Rachel</field>
+            <field name="lastname">Lewis</field>
+            <field name="birthdate">2012-06-18</field>
+            <field name="gender">femenino</field>
+            <field name="ci">88901234</field>
+            <field name="cellphone">555-1800</field>
+        </record>
+        <record id="student_19" model="school.student">
+            <field name="name">Sam</field>
+            <field name="lastname">Robinson</field>
+            <field name="birthdate">2013-07-19</field>
+            <field name="gender">masculino</field>
+            <field name="ci">99012345</field>
+            <field name="cellphone">555-1900</field>
+        </record>
+        <record id="student_20" model="school.student">
+            <field name="name">Tina</field>
+            <field name="lastname">Walker</field>
+            <field name="birthdate">2014-08-20</field>
+            <field name="gender">femenino</field>
+            <field name="ci">10123456</field>
+            <field name="cellphone">555-2000</field>
+        </record>
+        <record id="student_21" model="school.student">
+            <field name="name">Uma</field>
+            <field name="lastname">Hall</field>
+            <field name="birthdate">2010-09-21</field>
+            <field name="gender">femenino</field>
+            <field name="ci">21234567</field>
+            <field name="cellphone">555-2100</field>
+        </record>
+        <record id="student_22" model="school.student">
+            <field name="name">Victor</field>
+            <field name="lastname">Young</field>
+            <field name="birthdate">2011-10-22</field>
+            <field name="gender">masculino</field>
+            <field name="ci">32345678</field>
+            <field name="cellphone">555-2200</field>
+        </record>
+        <record id="student_23" model="school.student">
+            <field name="name">Wendy</field>
+            <field name="lastname">King</field>
+            <field name="birthdate">2012-11-23</field>
+            <field name="gender">femenino</field>
+            <field name="ci">43456789</field>
+            <field name="cellphone">555-2300</field>
+        </record>
+        <record id="student_24" model="school.student">
+            <field name="name">Xander</field>
+            <field name="lastname">Wright</field>
+            <field name="birthdate">2013-12-24</field>
+            <field name="gender">masculino</field>
+            <field name="ci">54567890</field>
+            <field name="cellphone">555-2400</field>
+        </record>
+        <record id="student_25" model="school.student">
+            <field name="name">Yara</field>
+            <field name="lastname">Lopez</field>
+            <field name="birthdate">2014-01-25</field>
+            <field name="gender">femenino</field>
+            <field name="ci">65678901</field>
+            <field name="cellphone">555-2500</field>
+        </record>
+        <record id="student_26" model="school.student">
+            <field name="name">Zara</field>
+            <field name="lastname">Gonzalez</field>
+            <field name="birthdate">2010-02-26</field>
+            <field name="gender">femenino</field>
+            <field name="ci">76789012</field>
+            <field name="cellphone">555-2600</field>
+        </record>
+        <record id="student_27" model="school.student">
+            <field name="name">Aaron</field>
+            <field name="lastname">Diaz</field>
+            <field name="birthdate">2011-03-27</field>
+            <field name="gender">masculino</field>
+            <field name="ci">87890123</field>
+            <field name="cellphone">555-2700</field>
+        </record>
+        <record id="student_28" model="school.student">
+            <field name="name">Bella</field>
+            <field name="lastname">Gutierrez</field>
+            <field name="birthdate">2012-04-28</field>
+            <field name="gender">femenino</field>
+            <field name="ci">98901234</field>
+            <field name="cellphone">555-2800</field>
+        </record>
+        <record id="student_29" model="school.student">
+            <field name="name">Carlos</field>
+            <field name="lastname">Ramirez</field>
+            <field name="birthdate">2013-05-29</field>
+            <field name="gender">masculino</field>
+            <field name="ci">09012345</field>
+            <field name="cellphone">555-2900</field>
+        </record>
+        <record id="student_30" model="school.student">
+            <field name="name">Daniela</field>
+            <field name="lastname">Navarro</field>
+            <field name="birthdate">2014-06-30</field>
+            <field name="gender">femenino</field>
+            <field name="ci">10123456</field>
+            <field name="cellphone">555-3000</field>
+        </record>
+        <record id="student_31" model="school.student">
+            <field name="name">Eduardo</field>
+            <field name="lastname">Vega</field>
+            <field name="birthdate">2010-07-31</field>
+            <field name="gender">masculino</field>
+            <field name="ci">21234567</field>
+            <field name="cellphone">555-3100</field>
+        </record>
+        <record id="student_32" model="school.student">
+            <field name="name">Fatima</field>
+            <field name="lastname">Rojas</field>
+            <field name="birthdate">2011-08-01</field>
+            <field name="gender">femenino</field>
+            <field name="ci">32345678</field>
+            <field name="cellphone">555-3200</field>
+        </record>
+        <record id="student_33" model="school.student">
+            <field name="name">Gabriel</field>
+            <field name="lastname">Morales</field>
+            <field name="birthdate">2012-09-02</field>
+            <field name="gender">masculino</field>
+            <field name="ci">43456789</field>
+            <field name="cellphone">555-3300</field>
+        </record>
+        <record id="student_34" model="school.student">
+            <field name="name">Helena</field>
+            <field name="lastname">Sanchez</field>
+            <field name="birthdate">2013-10-03</field>
+            <field name="gender">femenino</field>
+            <field name="ci">54567890</field>
+            <field name="cellphone">555-3400</field>
+        </record>
+        <record id="student_35" model="school.student">
+            <field name="name">Ismael</field>
+            <field name="lastname">Martinez</field>
+            <field name="birthdate">2014-11-04</field>
+            <field name="gender">masculino</field>
+            <field name="ci">65678901</field>
+            <field name="cellphone">555-3500</field>
+        </record>
+        <record id="student_36" model="school.student">
+            <field name="name">Javier</field>
+            <field name="lastname">Pérez</field>
+            <field name="birthdate">2010-12-05</field>
+            <field name="gender">masculino</field>
+            <field name="ci">76789012</field>
+            <field name="cellphone">555-3600</field>
+        </record>
+        <record id="student_37" model="school.student">
+            <field name="name">Karla</field>
+            <field name="lastname">Ortega</field>
+            <field name="birthdate">2011-01-06</field>
+            <field name="gender">femenino</field>
+            <field name="ci">87890123</field>
+            <field name="cellphone">555-3700</field>
+        </record>
+        <record id="student_38" model="school.student">
+            <field name="name">Luis</field>
+            <field name="lastname">Vásquez</field>
+            <field name="birthdate">2012-02-07</field>
+            <field name="gender">masculino</field>
+            <field name="ci">98901234</field>
+            <field name="cellphone">555-3800</field>
+        </record>
+        <record id="student_39" model="school.student">
+            <field name="name">Marta</field>
+            <field name="lastname">Gutiérrez</field>
+            <field name="birthdate">2013-03-08</field>
+            <field name="gender">femenino</field>
+            <field name="ci">09012345</field>
+            <field name="cellphone">555-3900</field>
+        </record>
+        <record id="student_40" model="school.student">
+            <field name="name">Nicolás</field>
+            <field name="lastname">Reyes</field>
+            <field name="birthdate">2014-04-09</field>
+            <field name="gender">masculino</field>
+            <field name="ci">10123456</field>
+            <field name="cellphone">555-4000</field>
+        </record>
+        <record id="student_41" model="school.student">
+            <field name="name">Olga</field>
+            <field name="lastname">Hernández</field>
+            <field name="birthdate">2010-05-10</field>
+            <field name="gender">femenino</field>
+            <field name="ci">21234567</field>
+            <field name="cellphone">555-4100</field>
+        </record>
+        <record id="student_42" model="school.student">
+            <field name="name">Pedro</field>
+            <field name="lastname">Ramírez</field>
+            <field name="birthdate">2011-06-11</field>
+            <field name="gender">masculino</field>
+            <field name="ci">32345678</field>
+            <field name="cellphone">555-4200</field>
+        </record>
+        <record id="student_43" model="school.student">
+            <field name="name">Quintina</field>
+            <field name="lastname">López</field>
+            <field name="birthdate">2012-07-12</field>
+            <field name="gender">femenino</field>
+            <field name="ci">43456789</field>
+            <field name="cellphone">555-4300</field>
+        </record>
+        <record id="student_44" model="school.student">
+            <field name="name">Ricardo</field>
+            <field name="lastname">Martínez</field>
+            <field name="birthdate">2013-08-13</field>
+            <field name="gender">masculino</field>
+            <field name="ci">54567890</field>
+            <field name="cellphone">555-4400</field>
+        </record>
+        <record id="student_45" model="school.student">
+            <field name="name">Sofía</field>
+            <field name="lastname">Ortiz</field>
+            <field name="birthdate">2014-09-14</field>
+            <field name="gender">femenino</field>
+            <field name="ci">65678901</field>
+            <field name="cellphone">555-4500</field>
+        </record>
+        <record id="student_46" model="school.student">
+            <field name="name">Tomás</field>
+            <field name="lastname">Pérez</field>
+            <field name="birthdate">2010-10-15</field>
+            <field name="gender">masculino</field>
+            <field name="ci">76789012</field>
+            <field name="cellphone">555-4600</field>
+        </record>
+        <record id="student_47" model="school.student">
+            <field name="name">Ursula</field>
+            <field name="lastname">Vargas</field>
+            <field name="birthdate">2011-11-16</field>
+            <field name="gender">femenino</field>
+            <field name="ci">87890123</field>
+            <field name="cellphone">555-4700</field>
+        </record>
+        <record id="student_48" model="school.student">
+            <field name="name">Vicente</field>
+            <field name="lastname">Romero</field>
+            <field name="birthdate">2012-12-17</field>
+            <field name="gender">masculino</field>
+            <field name="ci">98901234</field>
+            <field name="cellphone">555-4800</field>
+        </record>
+        <record id="student_49" model="school.student">
+            <field name="name">Wanda</field>
+            <field name="lastname">Torres</field>
+            <field name="birthdate">2013-01-18</field>
+            <field name="gender">femenino</field>
+            <field name="ci">09012345</field>
+            <field name="cellphone">555-4900</field>
+        </record>
+        <record id="student_50" model="school.student">
+            <field name="name">Ximena</field>
+            <field name="lastname">González</field>
+            <field name="birthdate">2014-02-19</field>
+            <field name="gender">femenino</field>
+            <field name="ci">10123456</field>
+            <field name="cellphone">555-5000</field>
+        </record>
+        <record id="student_51" model="school.student">
+            <field name="name">Yolanda</field>
+            <field name="lastname">Hernández</field>
+            <field name="birthdate">2010-03-20</field>
+            <field name="gender">femenino</field>
+            <field name="ci">21234567</field>
+            <field name="cellphone">555-5100</field>
+        </record>
+        <record id="student_52" model="school.student">
+            <field name="name">Zoe</field>
+            <field name="lastname">Ramírez</field>
+            <field name="birthdate">2011-04-21</field>
+            <field name="gender">femenino</field>
+            <field name="ci">32345678</field>
+            <field name="cellphone">555-5200</field>
+        </record>
+        <record id="student_53" model="school.student">
+            <field name="name">Álvaro</field>
+            <field name="lastname">López</field>
+            <field name="birthdate">2012-05-22</field>
+            <field name="gender">masculino</field>
+            <field name="ci">43456789</field>
+            <field name="cellphone">555-5300</field>
+        </record>
+        <record id="student_54" model="school.student">
+            <field name="name">Beatriz</field>
+            <field name="lastname">Martínez</field>
+            <field name="birthdate">2013-06-23</field>
+            <field name="gender">femenino</field>
+            <field name="ci">54567890</field>
+            <field name="cellphone">555-5400</field>
+        </record>
+        <record id="student_55" model="school.student">
+            <field name="name">César</field>
+            <field name="lastname">Ortiz</field>
+            <field name="birthdate">2014-07-24</field>
+            <field name="gender">masculino</field>
+            <field name="ci">65678901</field>
+            <field name="cellphone">555-5500</field>
+        </record>
+        <record id="student_56" model="school.student">
+            <field name="name">Daniel</field>
+            <field name="lastname">Pérez</field>
+            <field name="birthdate">2010-08-25</field>
+            <field name="gender">masculino</field>
+            <field name="ci">76789012</field>
+            <field name="cellphone">555-5600</field>
+        </record>
+        <record id="student_57" model="school.student">
+            <field name="name">Elena</field>
+            <field name="lastname">Vargas</field>
+            <field name="birthdate">2011-09-26</field>
+            <field name="gender">femenino</field>
+            <field name="ci">87890123</field>
+            <field name="cellphone">555-5700</field>
+        </record>
+        <record id="student_58" model="school.student">
+            <field name="name">Fernando</field>
+            <field name="lastname">Romero</field>
+            <field name="birthdate">2012-10-27</field>
+            <field name="gender">masculino</field>
+            <field name="ci">98901234</field>
+            <field name="cellphone">555-5800</field>
+        </record>
+        <record id="student_59" model="school.student">
+            <field name="name">Gloria</field>
+            <field name="lastname">Torres</field>
+            <field name="birthdate">2013-11-28</field>
+            <field name="gender">femenino</field>
+            <field name="ci">09012345</field>
+            <field name="cellphone">555-5900</field>
+        </record>
+        <record id="student_60" model="school.student">
+            <field name="name">Hugo</field>
+            <field name="lastname">González</field>
+            <field name="birthdate">2014-12-29</field>
+            <field name="gender">masculino</field>
+            <field name="ci">10123456</field>
+            <field name="cellphone">555-6000</field>
+        </record>  
+    </data>
+</odoo>

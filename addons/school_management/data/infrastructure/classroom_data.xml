@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Generación de registros de aulas -->
+        <record id="school_classroom_1" model="school.classroom">
+            <field name="name">aula 1</field>
+            <field name="capacity">30</field>
+        </record>
+        <record id="school_classroom_2" model="school.classroom">
+            <field name="name">aula 2</field>
+            <field name="capacity">25</field>
+        </record>
+        <record id="school_classroom_3" model="school.classroom">
+            <field name="name">aula 3</field>
+            <field name="capacity">35</field>
+        </record>
+        <record id="school_classroom_4" model="school.classroom">
+            <field name="name">aula 4</field>
+            <field name="capacity">22</field>
+        </record>
+        <record id="school_classroom_5" model="school.classroom">
+            <field name="name">aula 5</field>
+            <field name="capacity">38</field>
+        </record>
+        <record id="school_classroom_6" model="school.classroom">
+            <field name="name">aula 6</field>
+            <field name="capacity">27</field>
+        </record>
+        <record id="school_classroom_7" model="school.classroom">
+            <field name="name">aula 7</field>
+            <field name="capacity">31</field>
+        </record>
+        <record id="school_classroom_8" model="school.classroom">
+            <field name="name">aula 8</field>
+            <field name="capacity">29</field>
+        </record>
+        <record id="school_classroom_9" model="school.classroom">
+            <field name="name">aula 9</field>
+            <field name="capacity">26</field>
+        </record>
+        <record id="school_classroom_10" model="school.classroom">
+            <field name="name">aula 10</field>
+            <field name="capacity">34</field>
+        </record>
+        <record id="school_classroom_11" model="school.classroom">
+            <field name="name">aula 11</field>
+            <field name="capacity">30</field>
+        </record>
+        <record id="school_classroom_12" model="school.classroom">
+            <field name="name">aula 12</field>
+            <field name="capacity">29</field>
+        </record>
+        <record id="school_classroom_13" model="school.classroom">
+            <field name="name">aula 13</field>
+            <field name="capacity">50</field>
+        </record>
+        <record id="school_classroom_14" model="school.classroom">
+            <field name="name">aula 14</field>
+            <field name="capacity">36</field>
+        </record>
+        <record id="school_classroom_15" model="school.classroom">
+            <field name="name">aula 15</field>
+            <field name="capacity">29</field>
+        </record>
+    </data>
+</odoo>

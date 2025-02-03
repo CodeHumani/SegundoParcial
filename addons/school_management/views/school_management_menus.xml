@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_school_management" name="Colegio Educativo" sequence="1"/>
+
+        <menuitem id="menu_school_infrastructure" name="Datos" parent="menu_school_management" sequence="1"/>
+        <menuitem id="menu_school_schedule" name="Curso" parent="menu_school_management" sequence="2"/>
+         <menuitem id="menu_activity_management" name="Actividad" parent="menu_school_management" sequence="6"/>
+        <menuitem id="menu_teacher_management" name="Docente" parent="menu_school_management" sequence="3"/>
+        <menuitem id="menu_student_management" name="Estudiantes" parent="menu_school_management" sequence="4"/>
+        <menuitem id="menu_payment_management" name="Plan Pago" parent="menu_school_management" sequence="5"/>
+    </data>
+</odoo>

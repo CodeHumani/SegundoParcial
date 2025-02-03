@@ -1,0 +1,205 @@
+<odoo>
+    <data>
+        <record id="schedule_1" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_1"/>
+            <field name="classroom_id" ref="school_classroom_1"/>
+            <field name="course_id" ref="school_course_primero_a_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">8.0</field> <!-- 8:00 AM -->
+            <field name="end_time">9.0</field> <!-- 9:00 AM -->
+            <field name="day_of_week">0</field> <!-- Lunes -->
+        </record>
+
+        <record id="schedule_2" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_2"/>
+            <field name="classroom_id" ref="school_classroom_2"/>
+            <field name="course_id" ref="school_course_segundo_a_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">9.0</field> <!-- 9:00 AM -->
+            <field name="end_time">10.0</field> <!-- 10:00 AM -->
+            <field name="day_of_week">1</field> <!-- Martes -->
+        </record>
+
+        <record id="schedule_3" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_3"/>
+            <field name="classroom_id" ref="school_classroom_3"/>
+            <field name="course_id" ref="school_course_tercero_a_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">10.0</field> <!-- 10:00 AM -->
+            <field name="end_time">11.0</field> <!-- 11:00 AM -->
+            <field name="day_of_week">2</field> <!-- Miércoles -->
+        </record>
+
+        <record id="schedule_4" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_4"/>
+            <field name="classroom_id" ref="school_classroom_4"/>
+            <field name="course_id" ref="school_course_cuarto_a_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">11.0</field> <!-- 11:00 AM -->
+            <field name="end_time">12.0</field> <!-- 12:00 PM -->
+            <field name="day_of_week">3</field> <!-- Jueves -->
+        </record>
+
+        <record id="schedule_5" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_5"/>
+            <field name="classroom_id" ref="school_classroom_5"/>
+            <field name="course_id" ref="school_course_quinto_a_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">13.0</field> <!-- 1:00 PM -->
+            <field name="end_time">14.0</field> <!-- 2:00 PM -->
+            <field name="day_of_week">4</field> <!-- Viernes -->
+        </record>
+
+        <record id="schedule_6" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_6"/>
+            <field name="classroom_id" ref="school_classroom_6"/>
+            <field name="course_id" ref="school_course_sexto_a_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">8.0</field> <!-- 8:00 AM -->
+            <field name="end_time">9.0</field> <!-- 9:00 AM -->
+            <field name="day_of_week">5</field> <!-- Sábado -->
+        </record>
+
+        <record id="schedule_7" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_7"/>
+            <field name="classroom_id" ref="school_classroom_1"/>
+            <field name="course_id" ref="school_course_primero_b_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">9.0</field>
+            <field name="end_time">10.0</field>
+            <field name="day_of_week">0</field> <!-- Lunes -->
+        </record>
+
+        <record id="schedule_8" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_8"/>
+            <field name="classroom_id" ref="school_classroom_2"/>
+            <field name="course_id" ref="school_course_segundo_b_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">10.0</field>
+            <field name="end_time">11.0</field>
+            <field name="day_of_week">1</field> <!-- Martes -->
+        </record>
+
+        <record id="schedule_9" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_9"/>
+            <field name="classroom_id" ref="school_classroom_3"/>
+            <field name="course_id" ref="school_course_tercero_b_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">11.0</field>
+            <field name="end_time">12.0</field>
+            <field name="day_of_week">2</field> <!-- Miércoles -->
+        </record>
+
+        <record id="schedule_10" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_10"/>
+            <field name="classroom_id" ref="school_classroom_4"/>
+            <field name="course_id" ref="school_course_cuarto_b_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">13.0</field>
+            <field name="end_time">14.0</field>
+            <field name="day_of_week">3</field> <!-- Jueves -->
+        </record>
+
+        <!-- Agrega más registros para un total de 20 -->
+
+        <record id="schedule_11" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_11"/>
+            <field name="classroom_id" ref="school_classroom_5"/>
+            <field name="course_id" ref="school_course_quinto_b_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">14.0</field>
+            <field name="end_time">15.0</field>
+            <field name="day_of_week">4</field> <!-- Viernes -->
+        </record>
+
+        <record id="schedule_12" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_12"/>
+            <field name="classroom_id" ref="school_classroom_6"/>
+            <field name="course_id" ref="school_course_sexto_b_primaria"/>
+            <field name="cycle_id" ref="cycle_1"/>
+            <field name="start_time">8.0</field>
+            <field name="end_time">9.0</field>
+            <field name="day_of_week">5</field> <!-- Sábado -->
+        </record>
+
+        <record id="schedule_13" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_13"/>
+            <field name="classroom_id" ref="school_classroom_1"/>
+            <field name="course_id" ref="school_course_primero_a_secundaria"/>
+            <field name="cycle_id" ref="cycle_2"/>
+            <field name="start_time">9.0</field>
+            <field name="end_time">10.0</field>
+            <field name="day_of_week">0</field> <!-- Lunes -->
+        </record>
+
+        <record id="schedule_14" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_14"/>
+            <field name="classroom_id" ref="school_classroom_2"/>
+            <field name="course_id" ref="school_course_segundo_a_secundaria"/>
+            <field name="cycle_id" ref="cycle_2"/>
+            <field name="start_time">10.0</field>
+            <field name="end_time">11.0</field>
+            <field name="day_of_week">1</field> <!-- Martes -->
+        </record>
+
+        <record id="schedule_15" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_15"/>
+            <field name="classroom_id" ref="school_classroom_3"/>
+            <field name="course_id" ref="school_course_tercero_a_secundaria"/>
+            <field name="cycle_id" ref="cycle_2"/>
+            <field name="start_time">11.0</field>
+            <field name="end_time">12.0</field>
+            <field name="day_of_week">2</field> <!-- Miércoles -->
+        </record>
+
+        <record id="schedule_16" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_16"/>
+            <field name="classroom_id" ref="school_classroom_4"/>
+            <field name="course_id" ref="school_course_cuarto_a_secundaria"/>
+            <field name="cycle_id" ref="cycle_2"/>
+            <field name="start_time">13.0</field>
+            <field name="end_time">14.0</field>
+            <field name="day_of_week">3</field> <!-- Jueves -->
+        </record>
+
+        <record id="schedule_17" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_17"/>
+            <field name="classroom_id" ref="school_classroom_5"/>
+            <field name="course_id" ref="school_course_quinto_a_secundaria"/>
+            <field name="cycle_id" ref="cycle_2"/>
+            <field name="start_time">14.0</field>
+            <field name="end_time">15.0</field>
+            <field name="day_of_week">4</field> <!-- Viernes -->
+        </record>
+
+        <record id="schedule_18" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_18"/>
+            <field name="classroom_id" ref="school_classroom_6"/>
+            <field name="course_id" ref="school_course_sexto_a_secundaria"/>
+            <field name="cycle_id" ref="cycle_2"/>
+            <field name="start_time">8.0</field>
+            <field name="end_time">9.0</field>
+            <field name="day_of_week">5</field> <!-- Sábado -->
+        </record>
+
+        <record id="schedule_19" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_19"/>
+            <field name="classroom_id" ref="school_classroom_1"/>
+            <field name="course_id" ref="school_course_primero_b_secundaria"/>
+            <field name="cycle_id" ref="cycle_2"/>
+            <field name="start_time">9.0</field>
+            <field name="end_time">10.0</field>
+            <field name="day_of_week">0</field> <!-- Lunes -->
+        </record>
+
+        <record id="schedule_20" model="school.schedule">
+            <field name="teacher_id" ref="school_teaching_load_20"/>
+            <field name="classroom_id" ref="school_classroom_2"/>
+            <field name="course_id" ref="school_course_segundo_b_secundaria"/>
+            <field name="cycle_id" ref="cycle_2"/>
+            <field name="start_time">10.0</field>
+            <field name="end_time">11.0</field>
+            <field name="day_of_week">1</field> <!-- Martes -->
+        </record>
+    </data>
+</odoo>

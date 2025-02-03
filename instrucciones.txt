@@ -1,0 +1,17 @@
+-----------PASOS PARA HACER CORRER ODOO CON DOCKER -----------------------
+1 una vez clonado el repositorio cambiar de nombre del archivo .env-axample
+  a .env
+
+2 si quieres modificar el admin_passwd de odoo lee el punto 2 del
+  archivo config.txt. el que trae por defecto es el 123456 pero esto te lo pedira
+  cuando ya inicies el odoo en la configuracion inicial
+
+3 ejecutar el comando:  docker-compose up -d
+  lo que hara este comando es crear el contenedor de odoo con el PostgreSQL
+
+4 si quieres conectar el PostgreSQL del contenedor al pgAdmin de la pc local
+  puedes revisar el punto 1 del archivo config.txt
+
+5 por ultimo abrir el odoo en el localhost con el puerto 8085 en el navegador
+  y ahi veras las configuracion inicial de odoo en donde recien ahi SE CREA LA
+  BASE DE DATO EL ODOO

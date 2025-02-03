@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <!-- FORMULARIO -->
+        <record model="ir.ui.view" id="view_studentplan_form">
+            <field name="name">School StudentPlan Form</field>
+            <field name="model">school.studentplan</field>
+            <field name="arch" type="xml">
+                <form string="School StudentPlan">
+                    <sheet>
+                        <group>
+                            <field name="student_id" />
+                            <field name="paymentplan_id" />
+                            <field name="date_save" />
+                            <!-- Otros campos que puedas tener en tu modelo school.studentplan -->
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- TABLAS -->
+        <record model="ir.ui.view" id="view_paymentplan_tree">
+            <field name="name">School PaymentPlan List</field>
+            <field name="model">school.paymentplan</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name" />
+                    <field name="description" />
+                    <field name="amount_plan" />
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_studentplan_tree">
+            <field name="name">School StudentPlan List</field>
+            <field name="model">school.studentplan</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="student_id" />
+                    <field name="paymentplan_id" />
+                    <field name="date_save" />
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_payments_tree">
+            <field name="name">School Payments List</field>
+            <field name="model">school.payments</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="date_payment" />
+                    <field name="total_amount" />
+                    <field name="paymentplanstudent_id" />
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_paymentplan">
+            <field name="name">Payment Plan</field>
+            <field name="res_model">school.paymentplan</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+         <record model="ir.actions.act_window" id="action_studentplan">
+            <field name="name">Student Plan</field>
+            <field name="res_model">school.studentplan</field>
+            <field name="view_mode">tree,form</field>
+        </record>        
+
+        <record model="ir.actions.act_window" id="action_payments">
+            <field name="name">Payments</field>
+            <field name="res_model">school.payments</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_studentplan" name="Payment Plan" parent="menu_payment_management" action="action_paymentplan"/>   
+        <menuitem id="menu_paymentplan" name="Student Payment Plan" parent="menu_payment_management" action="action_studentplan"/>
+        <menuitem id="menu_payments" name="Payments" parent="menu_payment_management" action="action_payments"/>
+        
+    </data>
+</odoo>
+   

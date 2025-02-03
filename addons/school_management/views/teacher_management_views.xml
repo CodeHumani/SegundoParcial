@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <!-- FORMULARIO DE TEACHER -->
+        <record model="ir.ui.view" id="view_teacher_form">
+            <field name="name">School Teacher Form</field>
+            <field name="model">school.teacher</field>
+            <field name="arch" type="xml">
+                <form string="School Teacher Form">
+                    <group>
+                        <field name="name" />
+                        <field name="ci" />
+                        <field name="job_title" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <!-- LISTA DE TEACHER -->
+        <record model="ir.ui.view" id="view_teacher_tree">
+            <field name="name">School Teacher List</field>
+            <field name="model">school.teacher</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name" />
+                    <field name="ci" />
+                    <field name="job_title" />
+                </tree>
+            </field>
+        </record>
+
+        <!-- LISTA DE TEACHING LOAD -->
+        <record model="ir.ui.view" id="view_teaching_load_tree">
+            <field name="name">School Teaching Load List</field>
+            <field name="model">school.teaching.load</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="teacher_id" />
+                    <field name="subject_id" />
+                </tree>
+            </field>
+        </record>
+
+        <!-- ACCIONES -->
+        <record id="action_teacher" model="ir.actions.act_window">
+            <field name="name">Teachers</field>
+            <field name="res_model">school.teacher</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="action_teaching_load" model="ir.actions.act_window">
+            <field name="name">Teaching Load</field>
+            <field name="res_model">school.teaching.load</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- MENÚS -->
+        <menuitem id="menu_teacher" name="Teachers" parent="menu_teacher_management"
+            action="action_teacher" />
+        <menuitem id="menu_teaching_load" name="Teaching Load" parent="menu_teacher_management"
+            action="action_teaching_load" />
+    </data>
+</odoo>

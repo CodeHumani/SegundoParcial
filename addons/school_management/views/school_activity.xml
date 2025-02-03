@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_activity_form" model="ir.ui.view">
+        <field name="name">school.activity.form</field>
+        <field name="model">school.activity</field>
+        <field name="arch" type="xml">
+            <form string="Activity">
+                <sheet>
+                    <group>
+                        <field name="name" string="Description"/>
+                        <field name="activity_type" string="Tipo de Actividad"/>
+                        <field name="start_time" string="Fecha de Inicio"/>
+                        <field name="end_time" string="Fecha de Final"/>
+                        <field name="completed" string="Cumplido"/>
+                        <field name="schedule_id" string="Schedule" options="{'no_create': True}" context="{'show_name_only': True}"/>
+                    </group>
+                    <footer>
+                        <button name="create" type="object" string="Save Activity" class="btn-primary"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_activity_tree" model="ir.ui.view">
+        <field name="name">school.activity.tree</field>
+        <field name="model">school.activity</field>
+        <field name="arch" type="xml">
+            <tree string="Activities">
+                <field name="name" string="Description"/>
+                <field name="activity_type" string="Tipo de Actividad"/>
+                <field name="start_time" string="Fecha de Inicio"/>
+                <field name="end_time" string="Fecha de Final"/>
+                <field name="completed" string="Cumplido"/>
+                <field name="schedule_id" string="Schedule"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_activity" model="ir.actions.act_window">
+        <field name="name">Activities</field>
+        <field name="res_model">school.activity</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <menuitem id="menu_activity" name="Actividad" parent="menu_activity_management" action="action_activity"/>
+</odoo>

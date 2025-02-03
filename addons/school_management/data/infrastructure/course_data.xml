@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Cursos de primaria -->
+        <record id="school_course_primero_a_primaria" model="school.course">
+            <field name="name">Primero</field>
+            <field name="parallel">A</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de primero de primaria, paralelo A.</field>
+        </record>
+        <record id="school_course_primero_b_primaria" model="school.course">
+            <field name="name">Primero</field>
+            <field name="parallel">B</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de primero de primaria, paralelo B.</field>
+        </record>
+        <record id="school_course_primero_c_primaria" model="school.course">
+            <field name="name">Primero</field>
+            <field name="parallel">C</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de primero de primaria, paralelo C.</field>
+        </record>
+        <record id="school_course_segundo_a_primaria" model="school.course">
+            <field name="name">Segundo</field>
+            <field name="parallel">A</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de segundo de primaria, paralelo A.</field>
+        </record>
+        <record id="school_course_segundo_b_primaria" model="school.course">
+            <field name="name">Segundo</field>
+            <field name="parallel">B</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de segundo de primaria, paralelo B.</field>
+        </record>
+        <record id="school_course_segundo_c_primaria" model="school.course">
+            <field name="name">Segundo</field>
+            <field name="parallel">C</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de segundo de primaria, paralelo C.</field>
+        </record>
+        <record id="school_course_tercero_a_primaria" model="school.course">
+            <field name="name">Tercero</field>
+            <field name="parallel">A</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de tercero de primaria, paralelo A.</field>
+        </record>
+        <record id="school_course_tercero_b_primaria" model="school.course">
+            <field name="name">Tercero</field>
+            <field name="parallel">B</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de tercero de primaria, paralelo B.</field>
+        </record>
+        <record id="school_course_tercero_c_primaria" model="school.course">
+            <field name="name">Tercero</field>
+            <field name="parallel">C</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de tercero de primaria, paralelo C.</field>
+        </record>
+        <record id="school_course_cuarto_a_primaria" model="school.course">
+            <field name="name">Cuarto</field>
+            <field name="parallel">A</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de cuarto de primaria, paralelo A.</field>
+        </record>
+        <record id="school_course_cuarto_b_primaria" model="school.course">
+            <field name="name">Cuarto</field>
+            <field name="parallel">B</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de cuarto de primaria, paralelo B.</field>
+        </record>
+        <record id="school_course_cuarto_c_primaria" model="school.course">
+            <field name="name">Cuarto</field>
+            <field name="parallel">C</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de cuarto de primaria, paralelo C.</field>
+        </record>
+        <record id="school_course_quinto_a_primaria" model="school.course">
+            <field name="name">Quinto</field>
+            <field name="parallel">A</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de quinto de primaria, paralelo A.</field>
+        </record>
+        <record id="school_course_quinto_b_primaria" model="school.course">
+            <field name="name">Quinto</field>
+            <field name="parallel">B</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de quinto de primaria, paralelo B.</field>
+        </record>
+        <record id="school_course_quinto_c_primaria" model="school.course">
+            <field name="name">Quinto</field>
+            <field name="parallel">C</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de quinto de primaria, paralelo C.</field>
+        </record>
+        <record id="school_course_sexto_a_primaria" model="school.course">
+            <field name="name">Sexto</field>
+            <field name="parallel">A</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de sexto de primaria, paralelo A.</field>
+        </record>
+        <record id="school_course_sexto_b_primaria" model="school.course">
+            <field name="name">Sexto</field>
+            <field name="parallel">B</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de sexto de primaria, paralelo B.</field>
+        </record>
+        <record id="school_course_sexto_c_primaria" model="school.course">
+            <field name="name">Sexto</field>
+            <field name="parallel">C</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de sexto de primaria, paralelo C.</field>
+        </record>
+        <record id="school_course_septimo_a_primaria" model="school.course">
+            <field name="name">Séptimo</field>
+            <field name="parallel">A</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de séptimo de primaria, paralelo A.</field>
+        </record>
+        <record id="school_course_septimo_b_primaria" model="school.course">
+            <field name="name">Séptimo</field>
+            <field name="parallel">B</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de séptimo de primaria, paralelo B.</field>
+        </record>
+        <record id="school_course_septimo_c_primaria" model="school.course">
+            <field name="name">Séptimo</field>
+            <field name="parallel">C</field>
+            <field name="level">primaria</field>
+            <field name="description">Curso de séptimo de primaria, paralelo C.</field>
+        </record>
+
+        <!-- Cursos de secundaria -->
+        <record id="school_course_primero_a_secundaria" model="school.course">
+            <field name="name">Primero</field>
+            <field name="parallel">A</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de primero de secundaria, paralelo A.</field>
+        </record>
+        <record id="school_course_primero_b_secundaria" model="school.course">
+            <field name="name">Primero</field>
+            <field name="parallel">B</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de primero de secundaria, paralelo B.</field>
+        </record>
+        <record id="school_course_primero_c_secundaria" model="school.course">
+            <field name="name">Primero</field>
+            <field name="parallel">C</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de primero de secundaria, paralelo C.</field>
+        </record>
+        <record id="school_course_segundo_a_secundaria" model="school.course">
+            <field name="name">Segundo</field>
+            <field name="parallel">A</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de segundo de secundaria, paralelo A.</field>
+        </record>
+        <record id="school_course_segundo_b_secundaria" model="school.course">
+            <field name="name">Segundo</field>
+            <field name="parallel">B</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de segundo de secundaria, paralelo B.</field>
+        </record>
+        <record id="school_course_segundo_c_secundaria" model="school.course">
+            <field name="name">Segundo</field>
+            <field name="parallel">C</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de segundo de secundaria, paralelo C.</field>
+        </record>
+        <record id="school_course_tercero_a_secundaria" model="school.course">
+            <field name="name">Tercero</field>
+            <field name="parallel">A</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de tercero de secundaria, paralelo A.</field>
+        </record>
+        <record id="school_course_tercero_b_secundaria" model="school.course">
+            <field name="name">Tercero</field>
+            <field name="parallel">B</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de tercero de secundaria, paralelo B.</field>
+        </record>
+        <record id="school_course_tercero_c_secundaria" model="school.course">
+            <field name="name">Tercero</field>
+            <field name="parallel">C</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de tercero de secundaria, paralelo C.</field>
+        </record>
+        <record id="school_course_cuarto_a_secundaria" model="school.course">
+            <field name="name">Cuarto</field>
+            <field name="parallel">A</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de cuarto de secundaria, paralelo A.</field>
+        </record>
+        <record id="school_course_cuarto_b_secundaria" model="school.course">
+            <field name="name">Cuarto</field>
+            <field name="parallel">B</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de cuarto de secundaria, paralelo B.</field>
+        </record>
+        <record id="school_course_cuarto_c_secundaria" model="school.course">
+            <field name="name">Cuarto</field>
+            <field name="parallel">C</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de cuarto de secundaria, paralelo C.</field>
+        </record>
+        <record id="school_course_quinto_a_secundaria" model="school.course">
+            <field name="name">Quinto</field>
+            <field name="parallel">A</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de quinto de secundaria, paralelo A.</field>
+        </record>
+        <record id="school_course_quinto_b_secundaria" model="school.course">
+            <field name="name">Quinto</field>
+            <field name="parallel">B</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de quinto de secundaria, paralelo B.</field>
+        </record>
+        <record id="school_course_quinto_c_secundaria" model="school.course">
+            <field name="name">Quinto</field>
+            <field name="parallel">C</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de quinto de secundaria, paralelo C.</field>
+        </record>
+        <record id="school_course_sexto_a_secundaria" model="school.course">
+            <field name="name">Sexto</field>
+            <field name="parallel">A</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de sexto de secundaria, paralelo A.</field>
+        </record>
+        <record id="school_course_sexto_b_secundaria" model="school.course">
+            <field name="name">Sexto</field>
+            <field name="parallel">B</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de sexto de secundaria, paralelo B.</field>
+        </record>
+        <record id="school_course_sexto_c_secundaria" model="school.course">
+            <field name="name">Sexto</field>
+            <field name="parallel">C</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de sexto de secundaria, paralelo C.</field>
+        </record>
+        <record id="school_course_septimo_a_secundaria" model="school.course">
+            <field name="name">Séptimo</field>
+            <field name="parallel">A</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de séptimo de secundaria, paralelo A.</field>
+        </record>
+        <record id="school_course_septimo_b_secundaria" model="school.course">
+            <field name="name">Séptimo</field>
+            <field name="parallel">B</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de séptimo de secundaria, paralelo B.</field>
+        </record>
+        <record id="school_course_septimo_c_secundaria" model="school.course">
+            <field name="name">Séptimo</field>
+            <field name="parallel">C</field>
+            <field name="level">secundaria</field>
+            <field name="description">Curso de séptimo de secundaria, paralelo C.</field>
+        </record>
+    </data>
+</odoo>

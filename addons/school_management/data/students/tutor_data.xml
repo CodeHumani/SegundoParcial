@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="school_tutor_1" model="school.tutor">
+            <field name="name">John</field>
+            <field name="last_name">Doe</field>
+            <field name="cellphone">1234567890</field>
+            <field name="email">john.doe@example.com</field>
+            <field name="ci">100000001</field>
+        </record>
+        <record id="school_tutor_2" model="school.tutor">
+            <field name="name">Jane</field>
+            <field name="last_name">Smith</field>
+            <field name="cellphone">0987654321</field>
+            <field name="email">jane.smith@example.com</field>
+            <field name="ci">100000002</field>
+        </record>
+        <record id="school_tutor_3" model="school.tutor">
+            <field name="name">Michael</field>
+            <field name="last_name">Johnson</field>
+            <field name="cellphone">1122334455</field>
+            <field name="email">michael.johnson@example.com</field>
+            <field name="ci">100000003</field>
+        </record>
+        <record id="school_tutor_4" model="school.tutor">
+            <field name="name">Emily</field>
+            <field name="last_name">Davis</field>
+            <field name="cellphone">2233445566</field>
+            <field name="email">emily.davis@example.com</field>
+            <field name="ci">100000004</field>
+        </record>
+        <record id="school_tutor_5" model="school.tutor">
+            <field name="name">Daniel</field>
+            <field name="last_name">Martinez</field>
+            <field name="cellphone">3344556677</field>
+            <field name="email">daniel.martinez@example.com</field>
+            <field name="ci">100000005</field>
+        </record>
+        <record id="school_tutor_6" model="school.tutor">
+            <field name="name">Olivia</field>
+            <field name="last_name">Hernandez</field>
+            <field name="cellphone">4455667788</field>
+            <field name="email">olivia.hernandez@example.com</field>
+            <field name="ci">100000006</field>
+        </record>
+        <record id="school_tutor_7" model="school.tutor">
+            <field name="name">Matthew</field>
+            <field name="last_name">Lopez</field>
+            <field name="cellphone">5566778899</field>
+            <field name="email">matthew.lopez@example.com</field>
+            <field name="ci">100000007</field>
+        </record>
+        <record id="school_tutor_8" model="school.tutor">
+            <field name="name">Sophia</field>
+            <field name="last_name">Gonzalez</field>
+            <field name="cellphone">6677889900</field>
+            <field name="email">sophia.gonzalez@example.com</field>
+            <field name="ci">100000008</field>
+        </record>
+        <record id="school_tutor_9" model="school.tutor">
+            <field name="name">David</field>
+            <field name="last_name">Wilson</field>
+            <field name="cellphone">7788990011</field>
+            <field name="email">david.wilson@example.com</field>
+            <field name="ci">100000009</field>
+        </record>
+        <record id="school_tutor_10" model="school.tutor">
+            <field name="name">Ava</field>
+            <field name="last_name">Anderson</field>
+            <field name="cellphone">8899001122</field>
+            <field name="email">ava.anderson@example.com</field>
+            <field name="ci">100000010</field>
+        </record>
+            <record id="school_tutor_11" model="school.tutor">
+                <field name="name">James</field>
+                <field name="last_name">Gonzalez</field>
+                <field name="cellphone">5551230011</field>
+                <field name="email">james.gonzalez@example.com</field>
+                <field name="ci">123456781</field>
+            </record>
+            <record id="school_tutor_12" model="school.tutor">
+                <field name="name">Grace</field>
+                <field name="last_name">Wilson</field>
+                <field name="cellphone">5551230012</field>
+                <field name="email">grace.wilson@example.com</field>
+                <field name="ci">123456782</field>
+            </record>
+            <record id="school_tutor_13" model="school.tutor">
+                <field name="name">Daniel</field>
+                <field name="last_name">Anderson</field>
+                <field name="cellphone">5551230013</field>
+                <field name="email">daniel.anderson@example.com</field>
+                <field name="ci">123456783</field>
+            </record>
+            <record id="school_tutor_14" model="school.tutor">
+                <field name="name">Chloe</field>
+                <field name="last_name">Thomas</field>
+                <field name="cellphone">5551230014</field>
+                <field name="email">chloe.thomas@example.com</field>
+                <field name="ci">123456784</field>
+            </record>
+            <record id="school_tutor_15" model="school.tutor">
+                <field name="name">Joseph</field>
+                <field name="last_name">Taylor</field>
+                <field name="cellphone">5551230015</field>
+                <field name="email">joseph.taylor@example.com</field>
+                <field name="ci">123456785</field>
+            </record>
+            <record id="school_tutor_16" model="school.tutor">
+                <field name="name">Zoe</field>
+                <field name="last_name">Moore</field>
+                <field name="cellphone">5551230016</field>
+                <field name="email">zoe.moore@example.com</field>
+                <field name="ci">123456786</field>
+            </record>
+            <record id="school_tutor_17" model="school.tutor">
+                <field name="name">Ethan</field>
+                <field name="last_name">Jackson</field>
+                <field name="cellphone">5551230017</field>
+                <field name="email">ethan.jackson@example.com</field>
+                <field name="ci">123456787</field>
+            </record>
+            <record id="school_tutor_18" model="school.tutor">
+                <field name="name">Lily</field>
+                <field name="last_name">Martin</field>
+                <field name="cellphone">5551230018</field>
+                <field name="email">lily.martin@example.com</field>
+                <field name="ci">123456788</field>
+            </record>
+            <record id="school_tutor_19" model="school.tutor">
+                <field name="name">Ryan</field>
+                <field name="last_name">Lee</field>
+                <field name="cellphone">5551230019</field>
+                <field name="email">ryan.lee@example.com</field>
+                <field name="ci">123456789</field>
+            </record>
+            <record id="school_tutor_20" model="school.tutor">
+                <field name="name">Ava</field>
+                <field name="last_name">Perez</field>
+                <field name="cellphone">5551230020</field>
+                <field name="email">ava.perez@example.com</field>
+                <field name="ci">123456780</field>
+            </record>
+            <record id="school_tutor_21" model="school.tutor">
+                <field name="name">Jacob</field>
+                <field name="last_name">White</field>
+                <field name="cellphone">5551230021</field>
+                <field name="email">jacob.white@example.com</field>
+                <field name="ci">123456791</field>
+            </record>
+            <record id="school_tutor_22" model="school.tutor">
+                <field name="name">Mia</field>
+                <field name="last_name">Harris</field>
+                <field name="cellphone">5551230022</field>
+                <field name="email">mia.harris@example.com</field>
+                <field name="ci">123456792</field>
+            </record>
+            <record id="school_tutor_23" model="school.tutor">
+                <field name="name">Mason</field>
+                <field name="last_name">Clark</field>
+                <field name="cellphone">5551230023</field>
+                <field name="email">mason.clark@example.com</field>
+                <field name="ci">123456793</field>
+            </record>
+            <record id="school_tutor_24" model="school.tutor">
+                <field name="name">Ella</field>
+                <field name="last_name">Lewis</field>
+                <field name="cellphone">5551230024</field>
+                <field name="email">ella.lewis@example.com</field>
+                <field name="ci">123456794</field>
+            </record>
+            <record id="school_tutor_25" model="school.tutor">
+                <field name="name">Lucas</field>
+                <field name="last_name">Robinson</field>
+                <field name="cellphone">5551230025</field>
+                <field name="email">lucas.robinson@example.com</field>
+                <field name="ci">123456795</field>
+            </record>
+            <record id="school_tutor_26" model="school.tutor">
+                <field name="name">Charlotte</field>
+                <field name="last_name">Walker</field>
+                <field name="cellphone">5551230026</field>
+                <field name="email">charlotte.walker@example.com</field>
+                <field name="ci">123456796</field>
+            </record>
+            <record id="school_tutor_27" model="school.tutor">
+                <field name="name">Jackson</field>
+                <field name="last_name">Young</field>
+                <field name="cellphone">5551230027</field>
+                <field name="email">jackson.young@example.com</field>
+                <field name="ci">123456797</field>
+            </record>
+            <record id="school_tutor_28" model="school.tutor">
+                <field name="name">Amelia</field>
+                <field name="last_name">Allen</field>
+                <field name="cellphone">5551230028</field>
+                <field name="email">amelia.allen@example.com</field>
+                <field name="ci">123456798</field>
+            </record>
+            <record id="school_tutor_29" model="school.tutor">
+                <field name="name">Aiden</field>
+                <field name="last_name">King</field>
+                <field name="cellphone">5551230029</field>
+                <field name="email">aiden.king@example.com</field>
+                <field name="ci">123456799</field>
+            </record>
+            <record id="school_tutor_30" model="school.tutor">
+                <field name="name">Isabella</field>
+                <field name="last_name">Wright</field>
+                <field name="cellphone">5551230030</field>
+                <field name="email">isabella.wright@example.com</field>
+                <field name="ci">123456700</field>
+            </record>
+            <record id="school_tutor_31" model="school.tutor">
+                <field name="name">Carlos</field>
+                <field name="last_name">Mendez</field>
+                <field name="cellphone">5551230031</field>
+                <field name="email">carlos.mendez@example.com</field>
+                <field name="ci">123456701</field>
+            </record>
+            <record id="school_tutor_32" model="school.tutor">
+                <field name="name">Lucia</field>
+                <field name="last_name">Fernandez</field>
+                <field name="cellphone">5551230032</field>
+                <field name="email">lucia.fernandez@example.com</field>
+                <field name="ci">123456702</field>
+            </record>
+            <record id="school_tutor_33" model="school.tutor">
+                <field name="name">Juan</field>
+                <field name="last_name">Gomez</field>
+                <field name="cellphone">5551230033</field>
+                <field name="email">juan.gomez@example.com</field>
+                <field name="ci">123456703</field>
+            </record>
+            <record id="school_tutor_34" model="school.tutor">
+                <field name="name">Elena</field>
+                <field name="last_name">Martinez</field>
+                <field name="cellphone">5551230034</field>
+                <field name="email">elena.martinez@example.com</field>
+                <field name="ci">123456704</field>
+            </record>
+            <record id="school_tutor_35" model="school.tutor">
+                <field name="name">Gabriel</field>
+                <field name="last_name">Lopez</field>
+                <field name="cellphone">5551230035</field>
+                <field name="email">gabriel.lopez@example.com</field>
+                <field name="ci">123456705</field>
+            </record>
+            <record id="school_tutor_36" model="school.tutor">
+                <field name="name">Mariana</field>
+                <field name="last_name">Hernandez</field>
+                <field name="cellphone">5551230036</field>
+                <field name="email">mariana.hernandez@example.com</field>
+                <field name="ci">123456706</field>
+            </record>
+            <record id="school_tutor_37" model="school.tutor">
+                <field name="name">Luis</field>
+                <field name="last_name">Ramirez</field>
+                <field name="cellphone">5551230037</field>
+                <field name="email">luis.ramirez@example.com</field>
+                <field name="ci">123456789</field>
+            </record>
+            <record id="school_tutor_38" model="school.tutor">
+                <field name="name">Gabriela</field>
+                <field name="last_name">Perez</field>
+                <field name="cellphone">5551230038</field>
+                <field name="email">gabriela.perez@example.com</field>
+                <field name="ci">987654321</field>
+            </record>
+            <record id="school_tutor_39" model="school.tutor">
+                <field name="name">Fernando</field>
+                <field name="last_name">Sanchez</field>
+                <field name="cellphone">5551230039</field>
+                <field name="email">fernando.sanchez@example.com</field>
+                <field name="ci">456123789</field>
+            </record>
+            <record id="school_tutor_40" model="school.tutor">
+                <field name="name">Isabela</field>
+                <field name="last_name">Morales</field>
+                <field name="cellphone">5551230040</field>
+                <field name="email">isabela.morales@example.com</field>
+                <field name="ci">321654987</field>
+            </record>
+            <record id="school_tutor_41" model="school.tutor">
+                <field name="name">Diego</field>
+                <field name="last_name">Vargas</field>
+                <field name="cellphone">5551230041</field>
+                <field name="email">diego.vargas@example.com</field>
+                <field name="ci">741852963</field>
+            </record>
+            <record id="school_tutor_42" model="school.tutor">
+                <field name="name">Camila</field>
+                <field name="last_name">Ortega</field>
+                <field name="cellphone">5551230042</field>
+                <field name="email">camila.ortega@example.com</field>
+                <field name="ci">369258147</field>
+            </record>
+            <record id="school_tutor_43" model="school.tutor">
+                <field name="name">Mateo</field>
+                <field name="last_name">Cruz</field>
+                <field name="cellphone">5551230043</field>
+                <field name="email">mateo.cruz@example.com</field>
+                <field name="ci">852963741</field>
+            </record>
+            <record id="school_tutor_44" model="school.tutor">
+                <field name="name">Valentina</field>
+                <field name="last_name">Navarro</field>
+                <field name="cellphone">5551230044</field>
+                <field name="email">valentina.navarro@example.com</field>
+                <field name="ci">147258369</field>
+            </record>
+            <record id="school_tutor_45" model="school.tutor">
+                <field name="name">Javier</field>
+                <field name="last_name">Molina</field>
+                <field name="cellphone">5551230045</field>
+                <field name="email">javier.molina@example.com</field>
+                <field name="ci">963741852</field>
+            </record>
+            <record id="school_tutor_46" model="school.tutor">
+                <field name="name">Adan</field>
+                <field name="last_name">Avalos</field>
+                <field name="cellphone">5554250046</field>
+                <field name="email">adan.molina@example.com</field>
+                <field name="ci">258147369</field>
+            </record>
+            <record id="school_tutor_47" model="school.tutor">
+                <field name="name">Roberto</field>
+                <field name="last_name">Rojas</field>
+                <field name="cellphone">5521230045</field>
+                <field name="email">rojas.roberto@example.com</field>
+                <field name="ci">159753468</field>
+            </record>
+    </data> 
+</odoo>

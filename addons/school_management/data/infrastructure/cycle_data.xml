@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Ciclos para el año 2022 -->
+        <record id="cycle_1" model="school.cycle">
+            <field name="name">Bimestre 1 - 2022</field>
+            <field name="description">Primer bimestre del año 2022</field>
+            <field name="duration">bimestre</field>
+        </record>
+
+        <record id="cycle_2" model="school.cycle">
+            <field name="name">Bimestre 2 - 2022</field>
+            <field name="description">Segundo bimestre del año 2022</field>
+            <field name="duration">bimestre</field>
+        </record>
+
+        <record id="cycle_3" model="school.cycle">
+            <field name="name">Bimestre 3 - 2022</field>
+            <field name="description">Tercer bimestre del año 2022</field>
+            <field name="duration">bimestre</field>
+        </record>
+
+        <record id="cycle_4" model="school.cycle">
+            <field name="name">Bimestre 4 - 2022</field>
+            <field name="description">Cuarto bimestre del año 2022</field>
+            <field name="duration">bimestre</field>
+        </record>
+
+        <record id="cycle_5" model="school.cycle">
+            <field name="name">Bimestre 5 - 2022</field>
+            <field name="description">Quinto bimestre del año 2022</field>
+            <field name="duration">bimestre</field>
+        </record>
+
+        <!-- Ciclos para el año 2023 -->
+        <record id="cycle_6" model="school.cycle">
+            <field name="name">Trimestre 1 - 2023</field>
+            <field name="description">Primer trimestre del año 2023</field>
+            <field name="duration">trimestre</field>
+        </record>
+
+        <record id="cycle_7" model="school.cycle">
+            <field name="name">Trimestre 2 - 2023</field>
+            <field name="description">Segundo trimestre del año 2023</field>
+            <field name="duration">trimestre</field>
+        </record>
+
+        <record id="cycle_8" model="school.cycle">
+            <field name="name">Trimestre 3 - 2023</field>
+            <field name="description">Tercer trimestre del año 2023</field>
+            <field name="duration">trimestre</field>
+        </record>
+
+        <record id="cycle_9" model="school.cycle">
+            <field name="name">Trimestre 4 - 2023</field>
+            <field name="description">Cuarto trimestre del año 2023</field>
+            <field name="duration">trimestre</field>
+        </record>
+
+        <record id="cycle_10" model="school.cycle">
+            <field name="name">Trimestre 5 - 2023</field>
+            <field name="description">Quinto trimestre del año 2023</field>
+            <field name="duration">trimestre</field>
+        </record>
+    </data>
+</odoo>

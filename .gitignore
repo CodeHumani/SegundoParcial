@@ -1,0 +1,12 @@
+__pycache__/
+.vscode/
+.idea/
+addons-custom-local/
+*.pyc
+.env
+.venv
+.user_data_uid_*
+chromedriver_*
+xml_state.py
+before*
+*.code-workspace

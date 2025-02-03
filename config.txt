@@ -1,0 +1,29 @@
+1.- ---------CONECTAR CONTENEDOR POSTRESQL(CONTENEDOR) A PGADMIN-----------------------
+Abrir pgAdmin: Inicia pgAdmin en tu PC local.
+
+Agregar un Nuevo Servidor:
+Haz clic derecho en "PostgreSQL 15" y selecciona "Register" -> "Server"
+Configurar los Detalles del Servidor:
+
+general
+Name: Puedes darle cualquier nombre a tu servidor, por ejemplo, PostgreSQL Docker.
+
+connection
+Host name/address: localhost
+Port: 5445        (este es el puerto expuesto del contenedor,fijarse en dockerdesktop)
+Maintenance database: postgres       (esto NO ES LA BASE DE DATOS DEL ODOO dejar esto no tocar)
+Username: odoo_db   
+Password: odoo_db
+Guardar: Haz clic en "Save" para guardar la configuración.
+
+OJOOOOOOO: AUN NO SE HA CREADO LA BASE DE DATOS DE ODOO SOLO SE HA CONECTADO
+POSTRESQL DEL CONTENEDOR A PGADMIN DE LOCAL PC
+
+2.- -----------CONTRASEÑA INICIAL DE ODOO--------------------
+cuando se habre por primera vez para configurar odoo
+la contraseña es 123456 o lo puedes encontrar en la ruta
+config/odoo.conf
+admin_passwd = 123456
+OJO: se puede cambiar antes de crear el contenedor
+
+en la interfaz inicial recien se crea la BASE DE DATOS DE ODOO

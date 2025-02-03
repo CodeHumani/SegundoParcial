@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data >  
+        <!-- Materia: Matemáticas -->
+    <record id="school_subject_1" model="school.subject">
+        <field name="name">Matemáticas</field>
+        <field name="description">Estudio de los números, las estructuras, el espacio y el cambio.</field>
+    </record>
+
+    <!-- Materia: Física -->
+    <record id="school_subject_2" model="school.subject">
+        <field name="name">Física</field>
+        <field name="description">Ciencia que estudia las propiedades de la materia y energía, así como sus interacciones.</field>
+    </record>
+
+    <!-- Materia: Química -->
+    <record id="school_subject_3" model="school.subject">
+        <field name="name">Química</field>
+        <field name="description">Estudio de la composición, estructura, propiedades y cambios de la materia.</field>
+    </record>
+
+    <!-- Materia: Historia -->
+    <record id="school_subject_4" model="school.subject">
+        <field name="name">Historia</field>
+        <field name="description">Narración y estudio de los eventos del pasado, sus causas y consecuencias.</field>
+    </record>
+
+    <!-- Materia: Literatura -->
+    <record id="school_subject_5" model="school.subject">
+        <field name="name">Literatura</field>
+        <field name="description">Estudio de la escritura creativa, la obra literaria y sus géneros.</field>
+    </record>
+
+    <!-- Materia: Biología -->
+    <record id="school_subject_6" model="school.subject">
+        <field name="name">Biología</field>
+        <field name="description">Ciencia que estudia la vida y los organismos vivos.</field>
+    </record>
+
+    <!-- Materia: Geografía -->
+    <record id="school_subject_7" model="school.subject">
+        <field name="name">Geografía</field>
+        <field name="description">Estudio de la tierra, sus características físicas, recursos naturales y la distribución de la población.</field>
+    </record>
+
+    <!-- Materia: Arte -->
+    <record id="school_subject_8" model="school.subject">
+        <field name="name">Arte</field>
+        <field name="description">Exploración y expresión de ideas, emociones y experiencias a través de formas creativas como la pintura, escultura y música.</field>
+    </record>
+
+    <!-- Materia: Música -->
+    <record id="school_subject_9" model="school.subject">
+        <field name="name">Música</field>
+        <field name="description">Estudio y apreciación de la música, sus elementos y géneros.</field>
+    </record>
+
+    <!-- Materia: Educación Física -->
+    <record id="school_subject_10" model="school.subject">
+        <field name="name">Educación Física</field>
+        <field name="description">Desarrollo de habilidades físicas, deportes y la importancia del ejercicio para la salud.</field>
+    </record>
+    </data>  
+</odoo>

@@ -1,0 +1,143 @@
+<odoo>
+    <data>
+        <record id="school_teaching_load_1" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_1"/>
+            <field name="subject_id" ref="school_subject_1"/>
+            <field name="hours_per_week">5</field>
+            <field name="hours_total">60</field>
+        </record>
+
+        <record id="school_teaching_load_2" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_2"/>
+            <field name="subject_id" ref="school_subject_2"/>
+            <field name="hours_per_week">4</field>
+            <field name="hours_total">48</field>
+        </record>
+
+        <record id="school_teaching_load_3" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_3"/>
+            <field name="subject_id" ref="school_subject_3"/>
+            <field name="hours_per_week">3</field>
+            <field name="hours_total">36</field>
+        </record>
+
+        <record id="school_teaching_load_4" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_4"/>
+            <field name="subject_id" ref="school_subject_4"/>
+            <field name="hours_per_week">6</field>
+            <field name="hours_total">72</field>
+        </record>
+
+        <record id="school_teaching_load_5" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_5"/>
+            <field name="subject_id" ref="school_subject_5"/>
+            <field name="hours_per_week">5</field>
+            <field name="hours_total">60</field>
+        </record>
+
+        <record id="school_teaching_load_6" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_6"/>
+            <field name="subject_id" ref="school_subject_6"/>
+            <field name="hours_per_week">4</field>
+            <field name="hours_total">48</field>
+        </record>
+
+        <record id="school_teaching_load_7" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_7"/>
+            <field name="subject_id" ref="school_subject_7"/>
+            <field name="hours_per_week">3</field>
+            <field name="hours_total">36</field>
+        </record>
+
+        <record id="school_teaching_load_8" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_8"/>
+            <field name="subject_id" ref="school_subject_8"/>
+            <field name="hours_per_week">5</field>
+            <field name="hours_total">60</field>
+        </record>
+
+        <record id="school_teaching_load_9" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_9"/>
+            <field name="subject_id" ref="school_subject_9"/>
+            <field name="hours_per_week">6</field>
+            <field name="hours_total">72</field>
+        </record>
+
+        <record id="school_teaching_load_10" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_10"/>
+            <field name="subject_id" ref="school_subject_10"/>
+            <field name="hours_per_week">4</field>
+            <field name="hours_total">48</field>
+        </record>
+
+        <record id="school_teaching_load_11" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_11"/>
+            <field name="subject_id" ref="school_subject_1"/>
+            <field name="hours_per_week">5</field>
+            <field name="hours_total">60</field>
+        </record>
+
+        <record id="school_teaching_load_12" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_12"/>
+            <field name="subject_id" ref="school_subject_2"/>
+            <field name="hours_per_week">3</field>
+            <field name="hours_total">36</field>
+        </record>
+
+        <record id="school_teaching_load_13" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_13"/>
+            <field name="subject_id" ref="school_subject_3"/>
+            <field name="hours_per_week">6</field>
+            <field name="hours_total">72</field>
+        </record>
+
+        <record id="school_teaching_load_14" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_14"/>
+            <field name="subject_id" ref="school_subject_4"/>
+            <field name="hours_per_week">4</field>
+            <field name="hours_total">48</field>
+        </record>
+
+        <record id="school_teaching_load_15" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_15"/>
+            <field name="subject_id" ref="school_subject_5"/>
+            <field name="hours_per_week">5</field>
+            <field name="hours_total">60</field>
+        </record>
+
+        <record id="school_teaching_load_16" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_16"/>
+            <field name="subject_id" ref="school_subject_6"/>
+            <field name="hours_per_week">3</field>
+            <field name="hours_total">36</field>
+        </record>
+
+        <record id="school_teaching_load_17" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_17"/>
+            <field name="subject_id" ref="school_subject_7"/>
+            <field name="hours_per_week">4</field>
+            <field name="hours_total">48</field>
+        </record>
+
+        <record id="school_teaching_load_18" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_18"/>
+            <field name="subject_id" ref="school_subject_8"/>
+            <field name="hours_per_week">5</field>
+            <field name="hours_total">60</field>
+        </record>
+
+        <record id="school_teaching_load_19" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_19"/>
+            <field name="subject_id" ref="school_subject_9"/>
+            <field name="hours_per_week">6</field>
+            <field name="hours_total">72</field>
+        </record>
+
+        <record id="school_teaching_load_20" model="school.teaching.load">
+            <field name="teacher_id" ref="teacher_20"/>
+            <field name="subject_id" ref="school_subject_10"/>
+            <field name="hours_per_week">4</field>
+            <field name="hours_total">48</field>
+        </record>
+    </data>
+</odoo>

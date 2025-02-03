@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="teacher_1" model="school.teacher">
+            <field name="name">Juan Perez</field>
+            <field name="job_title">Maestro de Matemáticas</field>
+            <field name="ci">12345</field>
+        </record>
+        <record id="teacher_2" model="school.teacher">
+            <field name="name">María Garcia</field>
+            <field name="job_title">Maestro de Ciencias Naturales</field>
+            <field name="ci">23456</field>
+        </record>
+        <record id="teacher_3" model="school.teacher">
+            <field name="name">Pedro Lopez</field>
+            <field name="job_title">Maestro de Historia</field>
+            <field name="ci">34567</field>
+        </record>
+        <record id="teacher_4" model="school.teacher">
+            <field name="name">Ana Martinez</field>
+            <field name="job_title">Maestro de Educación Física</field>
+            <field name="ci">45678</field>
+        </record>
+        <record id="teacher_5" model="school.teacher">
+            <field name="name">Luisa Rodriguez</field>
+            <field name="job_title">Maestro de Religión</field>
+            <field name="ci">56789</field>
+        </record>
+        <record id="teacher_6" model="school.teacher">
+            <field name="name">Jorge Ramirez</field>
+            <field name="job_title">Maestro de Literatura</field>
+            <field name="ci">67890</field>
+        </record>
+        <record id="teacher_7" model="school.teacher">
+            <field name="name">Sofia Fernandez</field>
+            <field name="job_title">Maestro de Arte</field>
+            <field name="ci">78901</field>
+        </record>
+        <record id="teacher_8" model="school.teacher">
+            <field name="name">Carlos Sanchez</field>
+            <field name="job_title">Maestro de Música</field>
+            <field name="ci">89012</field>
+        </record>
+        <record id="teacher_9" model="school.teacher">
+            <field name="name">Elena Gomez</field>
+            <field name="job_title">Maestro de Química</field>
+            <field name="ci">90123</field>
+        </record>
+        <record id="teacher_10" model="school.teacher">
+            <field name="name">Diego Martín</field>
+            <field name="job_title">Maestro de Tecnología</field>
+            <field name="ci">01234</field>
+        </record>
+        <record id="teacher_11" model="school.teacher">
+            <field name="name">Rosa Ramírez</field>
+            <field name="job_title">Maestro de Geografía</field>
+            <field name="ci">12346</field>
+        </record>
+        <record id="teacher_12" model="school.teacher">
+            <field name="name">Manuel González</field>
+            <field name="job_title">Maestro de Informática</field>
+            <field name="ci">23457</field>
+        </record>
+        <record id="teacher_13" model="school.teacher">
+            <field name="name">Laura Pérez</field>
+            <field name="job_title">Maestro de Lenguaje</field>
+            <field name="ci">34568</field>
+        </record>
+        <record id="teacher_14" model="school.teacher">
+            <field name="name">Javier Ruiz</field>
+            <field name="job_title">Maestro de Economía</field>
+            <field name="ci">45679</field>
+        </record>
+        <record id="teacher_15" model="school.teacher">
+            <field name="name">Silvia Fernández</field>
+            <field name="job_title">Maestro de Biología</field>
+            <field name="ci">56780</field>
+        </record>
+        <record id="teacher_16" model="school.teacher">
+            <field name="name">Luis Méndez</field>
+            <field name="job_title">Maestro de Física</field>
+            <field name="ci">67891</field>
+        </record>
+        <record id="teacher_17" model="school.teacher">
+            <field name="name">Patricia Vega</field>
+            <field name="job_title">Maestro de Inglés</field>
+            <field name="ci">78902</field>
+        </record>
+        <record id="teacher_18" model="school.teacher">
+            <field name="name">Alejandro Torres</field>
+            <field name="job_title">Maestro de Filosofía</field>
+            <field name="ci">89013</field>
+        </record>
+        <record id="teacher_19" model="school.teacher">
+            <field name="name">Carmen Díaz</field>
+            <field name="job_title">Maestro de Ciencias Sociales</field>
+            <field name="ci">90134</field>
+        </record>
+        <record id="teacher_20" model="school.teacher">
+            <field name="name">Raúl Jiménez</field>
+            <field name="job_title">Maestro de Física</field>
+            <field name="ci">01235</field>
+        </record>
+        <record id="teacher_21" model="school.teacher">
+            <field name="name">Isabel Herrera</field>
+            <field name="job_title">Maestro de Artes Plásticas</field>
+            <field name="ci">12347</field>
+        </record>
+        <record id="teacher_22" model="school.teacher">
+            <field name="name">Fernando Castro</field>
+            <field name="job_title">Maestro de Educación Física</field>
+            <field name="ci">23458</field>
+        </record>
+        <record id="teacher_23" model="school.teacher">
+            <field name="name">Gabriela Moreno</field>
+            <field name="job_title">Maestro de Biología</field>
+            <field name="ci">34569</field>
+        </record>
+        <record id="teacher_24" model="school.teacher">
+            <field name="name">Miguel Castillo</field>
+            <field name="job_title">Maestro de Geografía</field>
+            <field name="ci">45680</field>
+        </record>
+        <record id="teacher_25" model="school.teacher">
+            <field name="name">Marta Vázquez</field>
+            <field name="job_title">Maestro de Economía</field>
+            <field name="ci">56781</field>
+        </record>
+        <record id="teacher_26" model="school.teacher">
+            <field name="name">Daniela Rojas</field>
+            <field name="job_title">Maestro de Química</field>
+            <field name="ci">67892</field>
+        </record>
+        <record id="teacher_27" model="school.teacher">
+            <field name="name">Roberto Ramos</field>
+            <field name="job_title">Maestro de Matemáticas</field>
+            <field name="ci">78903</field>
+        </record>
+        <record id="teacher_28" model="school.teacher">
+            <field name="name">Claudia Gil</field>
+            <field name="job_title">Maestro de Lengua y Literatura</field>
+            <field name="ci">89014</field>
+        </record>
+        <record id="teacher_29" model="school.teacher">
+            <field name="name">Francisco Peña</field>
+            <field name="job_title">Maestro de Historia</field>
+            <field name="ci">90145</field>
+        </record>
+        <record id="teacher_30" model="school.teacher">
+            <field name="name">Valentina Flores</field>
+            <field name="job_title">Maestro de Ciencias Políticas</field>
+            <field name="ci">01236</field>
+        </record>
+        <record id="teacher_31" model="school.teacher">
+            <field name="name">Iván Delgado</field>
+            <field name="job_title">Maestro de Computación</field>
+            <field name="ci">00036</field>
+        </record>
+        <record id="teacher_32" model="school.teacher">
+            <field name="name">Alicia Reyes</field>
+            <field name="job_title">Maestro de Educación Especial</field>
+            <field name="ci">00236</field>
+        </record>  
+    </data>  
+</odoo>

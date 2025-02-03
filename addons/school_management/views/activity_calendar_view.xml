@@ -1,0 +1,21 @@
+<odoo>
+    <record id="view_activity_calendar" model="ir.ui.view">
+        <field name="name">school.activity.calendar</field>
+        <field name="model">school.activity</field>
+        <field name="arch" type="xml">
+            <calendar string="Calendario de Actividades" date_start="start_time" date_stop="end_time" color="activity_type">
+                <field name="name"/>
+            </calendar>
+        </field>
+    </record>
+
+    <record id="action_activity_calendar" model="ir.actions.act_window">
+        <field name="name">Calendario de Actividades</field>
+        <field name="res_model">school.activity</field>
+        <field name="view_mode">calendar</field>
+        <field name="view_id" ref="view_activity_calendar"/>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem id="menu_activity_calendar" name="Calendario" parent="menu_activity_management" action="action_activity_calendar"/>
+</odoo>
